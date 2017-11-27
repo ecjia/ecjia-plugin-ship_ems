@@ -49,7 +49,7 @@ Plugin Name: EMS 国内邮政特快专递
 Plugin URI: http://www.ecjia.com/plugins/ecjia.ems/
 Description: EMS 国内邮政特快专递描述内容
 Author: ECJIA TEAM
-Version: 1.0.0
+Version: 2.0.0
 Author URI: http://www.ecjia.com/
 Plugin App: shipping
 */
