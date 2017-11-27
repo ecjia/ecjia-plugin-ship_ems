@@ -77,6 +77,11 @@ class plugin_ship_ems {
 
 }
 
+Ecjia_PluginManager::extend('ship_ems', function() {
+    require_once RC_Plugin::plugin_dir_path(__FILE__) . 'ship_ems.class.php';
+    return new ship_ems();
+});
+
 RC_Plugin::register_activation_hook(__FILE__, array('plugin_ship_ems', 'install'));
 RC_Plugin::register_deactivation_hook(__FILE__, array('plugin_ship_ems', 'uninstall'));
 RC_Hook::add_filter('shipping_factory_adapter_instance', array( 'plugin_ship_ems', 'adapter_instance' ), 10, 2);
