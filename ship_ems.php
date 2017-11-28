@@ -84,6 +84,5 @@ Ecjia_PluginManager::extend('ship_ems', function() {
 
 RC_Plugin::register_activation_hook(__FILE__, array('plugin_ship_ems', 'install'));
 RC_Plugin::register_deactivation_hook(__FILE__, array('plugin_ship_ems', 'uninstall'));
-RC_Hook::add_filter('shipping_factory_adapter_instance', array( 'plugin_ship_ems', 'adapter_instance' ), 10, 2);
 
 // end
