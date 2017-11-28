@@ -97,16 +97,14 @@ class ship_ems extends ShippingAbstract
         return $this->loadPluginData(RC_Plugin::plugin_dir_path(__FILE__) . '/languages/'.$locale.'/plugin.lang.php', $key, $default);
     }
     
-    
     /**
      * 返回快递单打印背景图片
      * @return NULL|string
      */
     public function printBcakgroundImage()
     {
-        return $this->config['print_bg'];
+        
     }
-    
 
     /**
      * 计算订单的配送费用的函数
