@@ -59,12 +59,10 @@ class plugin_ship_ems {
     public static function install() {
         $config = include(RC_Plugin::plugin_dir_path(__FILE__) . 'config.php');
         $config['print_bg'] = Ecjia_PluginManager::driver('ship_ems')->defaultPrintBackgroundImage();
-        $config['config_label'] = Ecjia_PluginManager::driver('ship_ems')->getConfigLabel();
-        
+        $config['config_lable'] = Ecjia_PluginManager::driver('ship_ems')->getConfigLabel();
         $param = array('file' => __FILE__, 'config' => $config);
         RC_Api::api('shipping', 'plugin_install', $param);
     }
-
 
     public static function uninstall() {
         $config = include(RC_Plugin::plugin_dir_path(__FILE__) . 'config.php');
