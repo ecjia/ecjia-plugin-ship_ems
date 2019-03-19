@@ -46,8 +46,8 @@
 //
 /*
 Plugin Name: EMS 国内邮政特快专递
-Plugin URI: http://www.ecjia.com/plugins/ecjia.ems/
-Description: EMS 国内邮政特快专递描述内容
+Plugin URI: http://www.ecjia.com/plugins/ecjia.ship_ems/
+Description: EMS 国内邮政特快专递
 Author: ECJIA TEAM
 Version: 2.0.0
 Author URI: http://www.ecjia.com/
@@ -79,6 +79,7 @@ class plugin_ship_ems {
 }
 
 Ecjia_PluginManager::extend('ship_ems', function() {
+    RC_Locale::loadPluginTextdomain('ship_ems');
     require_once RC_Plugin::plugin_dir_path(__FILE__) . 'ship_ems.class.php';
     return new ship_ems();
 });

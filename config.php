@@ -62,4 +62,16 @@ return array(
 			array('name' => 'step_fee',     'value' => 15),
 			array('name' => 'free_money', 'type' => 'text', 'value' => 0), /* 免费额度  */
 	),
+
+    'dynamic_option' => array(
+        'item_fee'              	=> __('单件商品费用：', 'ship_ems'),
+        'base_fee'              	=> __('500克以内费用：', 'ship_ems'),
+        'step_fee'              	=> __('续重每500克或其零数的费用：', 'ship_ems'),
+        'free_money'             	=> __('免费额度：', 'ship_ems'),
+        'fee_compute_mode'       	=> __('费用计算方式：', 'ship_ems'),
+        'fee_compute_mode_range' 	=> array(
+            'by_weight' => __('按重量', 'ship_ems'),
+            'by_number' => __('按件数', 'ship_ems')
+        ),
+    ),
 );
