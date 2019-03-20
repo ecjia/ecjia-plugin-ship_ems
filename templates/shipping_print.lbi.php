@@ -11,7 +11,7 @@
                     <td style="width:1.6cm; height:0.7cm;">&nbsp;</td>
                     <td style="width:2.3cm;">{$shop_name}</td>
                     <td style="width:2cm;">&nbsp;</td>
-                    <td>{$service_phone}</td>
+                    <td>{$shop_tel}</td>
                 </tr>
                 <tr>
                     <td colspan="4" style="height:0.7cm; padding-left:1.6cm;">{$shop_name}</td>
@@ -31,20 +31,20 @@
             <table width="100%" border="0" cellspacing="0" cellpadding="0">
                 <tr>
                     <td style="width:1.6cm; height:0.7cm;">&nbsp;</td>
-                    <td style="width:2.3cm;">{$order.consignee}</td>
+                    <td style="width:2.3cm;">{$customer_name}</td>
                     <td style="width:2cm;">&nbsp;</td>
-                    <td>{$order.mobile}</td>
+                    <td>{$customer_mobel}</td>
                 </tr>
                 <tr>
                     <td colspan="4" style="height:0.7cm;">&nbsp;</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    <td colspan="3" style="height:1.7cm;">{$order.address}</td>
+                    <td colspan="3" style="height:1.7cm;">{$customer_address}</td>
                 </tr>
                 <tr>
                     <td colspan="3" style="width:6.3cm; height:0.5cm;"></td>
-                    <td>{$order.zipcode}</td>
+                    <td>{$customer_post}</td>
                 </tr>
             </table>
         </td>
