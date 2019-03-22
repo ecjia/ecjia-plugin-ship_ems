@@ -74,6 +74,7 @@ return array(
         't_order_best_time,order_best_time,104,39,688,359,b_order_best_time',
         't_order_postscript,order_postscript,305,34,485,402,b_order_postscript',
         't_customer_address,customer_address,289,48,503,190,b_customer_address',
+    	''	
     ),
 
 	'forms' => array(
