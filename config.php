@@ -60,29 +60,38 @@ return array(
      * 使用 ||,|| 合并连接
      */
     'config_lable'  => array(
-        't_shop_name,shop_name,236,32,182,161,b_shop_name',
-        't_shop_tel,shop_tel,127,21,295,135,b_shop_tel',
-        't_shop_address,shop_address,296,68,124,190,b_shop_address',
-        't_pigeon,pigeon,21,21,192,278,b_pigeon',
-        't_customer_name,customer_name,107,23,494,136,b_customer_name',
-        't_customer_tel,customer_tel,155,21,639,124,b_customer_tel',
-        't_customer_mobel,customer_mobel,159,21,639,147,b_customer_mobel',
-        't_customer_post,customer_post,88,21,680,258,b_customer_post',
-        't_year,year,37,21,534,379,b_year',
-        't_months,months,29,21,592,379,b_months',
-        't_day,day,27,21,642,380,b_day',
-        't_order_best_time,order_best_time,104,39,688,359,b_order_best_time',
-        't_order_postscript,order_postscript,305,34,485,402,b_order_postscript',
-        't_customer_address,customer_address,289,48,503,190,b_customer_address',
-    	''	
+        't_shop_name,shop_name,112,21,126,110,b_shop_name',
+        't_shop_tel,shop_tel,128,21,291,110,b_shop_tel',
+        't_customer_name,customer_name,70,21,128,229,b_customer_name',
+    	't_customer_mobel,customer_mobel,169,21,294,227,b_customer_mobel',
+    	't_shop_country,shop_country,61,21,119,152,b_shop_country',
+    	't_shop_province,shop_province,60,21,182,152,b_shop_province',
+    	't_shop_city,shop_city,61,21,244,152,b_shop_city',		
+    	't_shop_district,shop_district,65,21,307,152,b_shop_district',
+    	't_shop_address,shop_address,230,21,241,175,b_shop_address',
+    	't_shop_street,shop_street,120,21,120,175,b_shop_street',
+    	't_customer_post,customer_post,119,21,352,338,b_customer_post',
+    	't_customer_country,customer_country,69,21,120,280,b_customer_country',
+    	't_customer_province,customer_province,74,21,190,280,b_customer_province',
+    	't_customer_city,customer_city,80,21,265,280,b_customer_city',
+    	't_customer_district,customer_district,125,21,346,279,b_customer_district',
+    	't_customer_address,customer_address,230,21,240,303,b_customer_address',
+    	't_customer_street,customer_street,119,21,121,303,b_customer_street',
+    	't_customer_tel,customer_tel,170,21,141,256,b_customer_tel',
+    	't_order_postscript,order_postscript,150,50,672,391,b_order_postscript',
+    	't_order_best_time,order_best_time,117,21,704,370,b_order_best_time',
+    	't_year,year,40,21,670,239,b_year',
+    	't_months,months,33,21,719,239,b_months',
+    	't_day,day,27,21,757,240,b_day',
+    	''
     ),
 
 	'forms' => array(
-			array('name' => 'fee_compute_mode', 'type' => 'radiobox', 'value' => 'by_weight'), /* 费用计算方式  */
-			array('name' => 'item_fee',     'value' => 20),
-			array('name' => 'base_fee',     'value' => 20),
-			array('name' => 'step_fee',     'value' => 15),
-			array('name' => 'free_money', 'type' => 'text', 'value' => 0), /* 免费额度  */
+		array('name' => 'fee_compute_mode', 'type' => 'radiobox', 'value' => 'by_weight'), /* 费用计算方式  */
+		array('name' => 'item_fee',     'value' => 20),
+		array('name' => 'base_fee',     'value' => 20),
+		array('name' => 'step_fee',     'value' => 15),
+		array('name' => 'free_money', 'type' => 'text', 'value' => 0), /* 免费额度  */
 	),
 
     'dynamic_option' => array(
