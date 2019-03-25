@@ -53,7 +53,6 @@ return array(
     'print_support' => true,
 	'print_model'	=> 2,			/* 模式编辑器 */
 	'print_bg'		=> 'images/dly_ems.jpg',			/* 打印单背景 */
-//	'config_lable'	=> 't_shop_name,shop_name,236,32,182,161,b_shop_name||,||t_shop_tel,shop_tel,127,21,295,135,b_shop_tel||,||t_shop_address,shop_address,296,68,124,190,b_shop_address||,||t_pigeon,pigeon,21,21,192,278,b_pigeon||,||t_customer_name,customer_name,107,23,494,136,b_customer_name||,||t_customer_tel,customer_tel,155,21,639,124,b_customer_tel||,||t_customer_mobel,customer_mobel,159,21,639,147,b_customer_mobel||,||t_customer_post,customer_post,88,21,680,258,b_customer_post||,||t_year,year,37,21,534,379,b_year||,||t_months,months,29,21,592,379,b_months||,||t_day,day,27,21,642,380,b_day||,||t_order_best_time,order_best_time,104,39,688,359,b_order_best_time||,||t_order_postscript,order_postscript,305,34,485,402,b_order_postscript||,||t_customer_address,customer_address,289,48,503,190,b_customer_address||,||',			/* 打印快递单标签位置信息 */
 
     /**
      * 打印快递单标签位置信息
